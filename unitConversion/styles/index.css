@@ -1,0 +1,75 @@
+
+body{
+    margin: 200px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Inter", sans-serif;
+
+}
+#head-section{
+    background: #6943FF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+input{
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    padding: 30px;
+    background: #6943FF;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 80px;
+    width: 120px;
+    font-size: 56px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+button{
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 120px;
+    font-family: "Inter", sans-serif;
+
+}
+
+#conversion-sections{
+    background: #F4F4F4;
+    padding: 20px 10px;
+
+
+
+}
+
+.conversion-sec{
+    background: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-top-left-radius: 5px;
+
+}
+h4{
+    color: #5A537B;
+
+}
+
+p{
+    color: #353535;
+}
