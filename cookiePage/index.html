@@ -31,22 +31,22 @@
 
         <div class="consent-container" id="consent-container">
             <div class="close-btn-container">
-                <button class="close-btn">X</button>
+                <button class="close-btn" id="close-btn" disabled>X</button>
             </div>
 
-            <div class="consent-main-container">
+            <div class="consent-main-container" id="consent-main-container">
                 <h2>We ❤️ Your Data!</h2>
-                <p id="consent-text">We have a strict policy on tracking and spamming: we'll definitely track you, and we'll
+                <p class="consent-text" id="consent-text">We have a strict policy on tracking and spamming: we'll definitely track you, and we'll
                 definitely spam you. To use this site, enter your name and email address and accept our 
                 ridiculous terms and conditions.</p>
 
-                <form class="form-section" id="form-section">
+                <form id="form-section">
 
-                    <input type="text" placeholder="Enter your full name" aria-label="Full name" required>
+                    <input type="text" name="fullName" placeholder="Enter your full name" aria-label="Full name" required>
                     <input type="email" placeholder="Enter your email" aria-label="Email" required>
 
-                    <div class="form-btns-container">
-                        <button typle="submit" id="accept-btn" class="form-btn accept-btn">Accept</button>
+                    <div class="form-btns-container" id="form-btns-container">
+                        <button type="submit" id="accept-btn" class="form-btn accept-btn">Accept</button>
                         <button class="form-btn decline-btn">Decline</button>
                     </div>
 

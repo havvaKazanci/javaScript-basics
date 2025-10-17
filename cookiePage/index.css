@@ -123,3 +123,39 @@ input{
     padding: 20px;
 
 }
+
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+.modal-btns-reverse{
+    flex-direction: row-reverse;
+}
+
+/* modal after submit */
+
+.loading{
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.modal-display-name{
+    color: fuchsia;
+}
+
+.consent-text{
+    height: 140px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.idiot-gif{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.idiot-gif img{
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+}
